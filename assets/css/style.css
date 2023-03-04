@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 :root {
     --color-body: #fefefe;
@@ -128,6 +129,7 @@ img {
     background-color: white;
     color: var(--color-base);
     border-color: var(--color-brand2);
+    transform: scale(1.1);
 }
 
 .link-custom {
@@ -163,28 +165,13 @@ img {
     transform: scale(1.1);
 }
 
-/* CONTACT */
-#contact .form-control {
-    background-color: var(--color-base);
-    border-color: var(--color-base);
-    color: var(--color-body);
-}
 
-#contact .form-control:focus {
-    border-color: var(--color-brand);
-    box-shadow: none;
-}
-
-#contact .form-control::placeholder {
-    color: var(--color-body);
-}
-
-#contact input.form-control {
-    height: 44px;
-}
 
 /* SOCIAL ICONS */
-.social-icons {
+.social-icons :hover{
+    color:#000000;
+    transform: scale(1.1);
+    
 
 }
 
@@ -194,7 +181,7 @@ img {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-base);
-    border-radius: 50px;
+    background-color: var(--color-brand);
+    border-radius: 5px;
     font-size: 40px;
 }
