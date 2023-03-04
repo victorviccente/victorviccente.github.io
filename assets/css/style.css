@@ -52,7 +52,7 @@ img {
     justify-content: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid rgba(255,255,255, 0.1);
+    border-bottom: 2px solid var(--color-brand)
 }
 
 .shadow-effect {
@@ -80,17 +80,16 @@ img {
 }
 
 .navbar .nav-link {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #ffffff;
+    font-weight: 800;
+    color: #000000;
 }
 
 .navbar .nav-link:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .navbar .nav-link.active {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 @media (min-width: 992px) {
